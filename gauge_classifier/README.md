@@ -2,6 +2,8 @@
 
 A transfer-learning computer vision pipeline built with PyTorch and `timm` (`efficientnet_b0`) to classify industrial boiler components as **YES (`gauge`)** or **NO (`not_gauge`)**.
 
+Please source images from: https://drive.google.com/drive/folders/19yVhqk2pmHmqmakMdA-m2wUSFPX3WLgX?usp=sharing
+
 ---
 
 ## 1. Directory Structure
