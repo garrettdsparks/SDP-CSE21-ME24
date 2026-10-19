@@ -1,23 +1,22 @@
-
-CSE 4939W/
-
-# Gauge Classifier local data & model weights
-gauge_classifier/data/
-gauge_classifier/models/
-*.pt
-*.pth
-
-# Jupyter & Python cache (applies everywhere)
-.ipynb_checkpoints/
-__pycache__/
-
-# OS files (Mac & Windows)
-.DS_Store
-Thumbs.db
-
-# Ignore all images and datasets
-data/
+# Data and images (anywhere in code/)
+**/data/
 *.jpg
 *.jpeg
 *.png
 *.webp
+*.bmp
+
+# Model weights
+**/models/
+*.pt
+*.pth
+*.onnx
+
+# Python & Jupyter artifacts
+.ipynb_checkpoints/
+**/__pycache__/
+*.pyc
+
+# OS metadata (Mac & Windows)
+.DS_Store
+Thumbs.db
