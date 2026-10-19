@@ -1,0 +1,16 @@
+# YOLO Dataset Configuration for Fire & Hazard Detection
+
+# 1. Dataset Root Path (can be absolute or relative to where YOLO is run)
+path: ../data  # Root directory containing train/ and val/
+
+# 2. Sub-paths to image folders (relative to 'path')
+train: train/images  # Training images (~70-80% of data)
+val: val/images      # Validation images (~15-20% of data)
+test: test/images    # Optional: Test images (~10% of data)
+
+# 3. Class Definitions
+# Index starts at 0. 'names' maps class index to human-readable label.
+names:
+  0: fire
+  1: smoke
+
